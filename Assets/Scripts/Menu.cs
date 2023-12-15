@@ -19,6 +19,7 @@ public class Menu : MonoBehaviour
     public void OnQuitButton ()
     {
         Application.Quit();
+        Debug.Log("You have quit this application");
     }
 
     public void menu()
